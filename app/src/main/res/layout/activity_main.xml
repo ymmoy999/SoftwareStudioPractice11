@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.csclab.practice11.MainActivity">
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5pt"
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/send"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.14"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/textResult"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
